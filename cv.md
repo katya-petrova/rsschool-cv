@@ -28,7 +28,7 @@ function isPalindrome(line) {
 - Code-basics
 - Coding on CodeWars
 ## Education
-- Minsk State Linguistic University (2013-2018)
+- Minsk State Linguistic University (01.09.2013 - 28.02.2018)
 - IT Academy - HTML, CSS and JavaScript (30.01.2021 - 08.05.2021)
 ## Languages
 - Russian - native
