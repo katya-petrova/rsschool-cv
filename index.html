@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <title>CV</title>
 </head>
 <body>      
     <header>
         <h1>Ekaterina Petrova</h1>
-        <img src="image.jpg" alt="photo">
+        <span class="circle-image"><img src="image.jpg" alt="photo"></span>
     </header>
     <main>
         <section>
@@ -32,16 +34,16 @@
             <h2>Code examples</h2>
             <pre>
 function factorial(n) {
-    if (n < 0 || n > 12) {
+    if (n &lt; 0 || n > 12) {
     throw new RangeError;
     } 
-    return (n <= 1) ? 1 : n * factorial(n - 1);
+    return (n &lt;= 1) ? 1 : n * factorial(n - 1);
 }</pre>
         </section>
         <section>
             <h2>Education</h2>
-            <p>Higher education: Minsk State Linguistic University (01.09.2013 - 28.02.2018)</p>
-            <p>Additional education>: IT Academy - HTML, CSS and JavaScript (30.01.2021 - 08.05.2021)</p>
+            <p><strong>Higher education</strong>: Minsk State Linguistic University (01.09.2013 - 28.02.2018)</p>
+            <p><strong>Additional education</strong>: IT Academy - HTML, CSS and JavaScript (30.01.2021 - 08.05.2021)</p>
         </section>
         <section>
             <h2>Languages</h2>
@@ -51,6 +53,17 @@ function factorial(n) {
                 <li>Spanish - A2</li>
             </ul>
         </section>
+        <section>
+            <h2>Contacts</h2>
+            <ul>
+                <li>Phone: +375(29)705-92-42</li>
+                <li>Email: walki-disi@ya.ru</li>
+                <li>Telegram: @walki_disi</li>
+            </ul>
+        </section>
     </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
