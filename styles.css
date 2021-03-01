@@ -32,7 +32,7 @@ header {
 }
 
 main {
-    width: 600px;
+    width: 690px;
     margin: auto;
     padding: 10px;
 }
@@ -41,12 +41,22 @@ h2 {
     text-decoration: underline;
 }
 footer {
-    padding: 40px;
+    padding: 20px;
+    text-align: right;
     background-color: rgba(255, 204, 255, 0.966);
     -webkit-box-shadow: 0px -5px 18px -3px rgba(34, 60, 80, 0.22);
     -moz-box-shadow: 0px -5px 18px -3px rgba(34, 60, 80, 0.22);
     box-shadow: 0px -5px 18px -3px rgba(34, 60, 80, 0.22);
 }
+
+.github-icon {
+    width: 50px;
+}
+
+.rsschool-icon {
+    width: 140px;
+}
+
 @media screen and (max-width: 600px) {
     main {
     width: fit-content;
